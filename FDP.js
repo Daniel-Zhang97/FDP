@@ -13,5 +13,7 @@ function createCrew(name, age, position, ship) {
 }
 
 let jHolden = createCrew('James Holden', 30, 'Captain', 'Rocinante')
+let aKamal = createCrew('Alex Kamal', 'Unknown', 'pilot', 'Rocinante')
 
 jHolden.introduction()
+aKamal.introduction()
